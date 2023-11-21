@@ -1,0 +1,128 @@
+body{
+    background-image: url(/images/try7.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    font-size: 500%;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(165, 207, 241);
+    margin-top: 0%;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #ffffff3b, 0 0 20px #ffffff3a, 0 0 30px #ffffff24, 0 0 40px #efefef00;
+    
+    }
+    
+    to {
+      text-shadow: 0 0 20px #e2e6ec, 0 0 30px #4db2ff, 0 0 40px #1d5865;
+    }
+}
+  
+button{
+    position: relative;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, rgba(64, 83, 141, 0.665),  rgba(26, 70, 80, 0.91), rgba(27, 106, 60, 0.636));
+    color: rgb(188, 202, 246);
+    font-size: 16px;
+    padding: 23px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #25242453;
+    border: 2px solid #bfe5fdd3;
+    margin-top: 9%;
+    transition: all 0.5s;
+    margin-left: 10%;
+   
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  button:hover{
+    box-shadow: -4px 4px 8px 0 rgba(194, 193, 193, 0.557), 0 6px 20px 0 rgba(165, 164, 164, 0.538);
+  }
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+    
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+ /* .naira{
+
+  }
+  
+ .dollars{
+  
+   top: 25%;
+   
+  }
+
+  .pound{
+    margin-top: 20%;  }
+
+  .swiss{
+    left: 75%
+  }
+
+  .yen{
+    left: 0%
+  }
+
+  .lira{
+    left: 25%
+  }
+
+  .egypt{
+    left: 50%
+  }
+
+  .CFA{
+    left: 75%
+  }*/
+
+#home1{
+    text-decoration: none;
+   
+    position: absolute;
+    left: 90%;
+    top: 90%;
+    font-size: 150%;
+    color: white;
+}
+
+#home1:hover{
+  background-color: transparent;
+color: rgba(132, 171, 255, 0.855);
+text-decoration: underline;
+}
+
+#home:active{
+  background-color: transparent;
+  color: #fa5591c8;
+  text-decoration: underline;
+}
