@@ -11,10 +11,9 @@ h1{
     font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(15, 67, 79);
-    margin-top: 0%;
     animation: glow 1s ease-in-out infinite alternate;
 }
-@-webkit-keyframes glow {
+@keyframes glow {
     from {
       text-shadow: 0 0 10px #5ef6f6dc, 0 0 20px #68c4dede, 0 0 30px #47b2c5c5, 0 0 40px #efefefd5;
     
@@ -79,7 +78,7 @@ select{
     box-shadow: -4px 4px 8px 0 rgba(13, 13, 13, 0.343), 0 6px 20px 0 rgba(29, 27, 27, 0.406);
 }*/
 
-#amount{
+/* #amount{
     font-size: larger;
     letter-spacing: 2px;
     font-weight: 500;
@@ -92,23 +91,19 @@ select{
     border-radius: 6px;
     box-sizing: border-box;
     box-shadow: -4px 4px 8px 0 rgba(13, 13, 13, 0.343), 0 6px 20px 0 rgba(29, 27, 27, 0.406);
-}
+} */
 
 #home3{
-    text-decoration: none;
-   
     position: absolute;
-    left: 90%;
-    top: 90%;
-    font-size: 150%;
-    color: rgba(16, 31, 249, 0.881);
-}
+    top: 10%;
+    right: 10%;
+} 
 
-#home3:hover{
+/* #home3:hover{
   background-color: transparent;
 color: rgba(132, 171, 255, 0.855);
 text-decoration: underline;
-}
+} */
 
 #input{
     position: absolute;
@@ -128,3 +123,11 @@ text-decoration: underline;
     box-shadow: -4px 4px 8px 0 rgba(13, 13, 13, 0.343), 0 6px 20px 0 rgba(29, 27, 27, 0.406);
 }
 
+@media only screen and (max-width:600px) { 
+    body{ background-image: url(/images/whitewall.jpeg); overflow: scroll;} 
+    h1{color: rgba(36, 20, 36, 0.834); animation: none;}
+    #fromtxt { font-size: 250%;}
+    #totxt { font-size: 250%;}
+    #input{ font-size: medium; letter-spacing: 0px;}
+    select{ font-size: small; letter-spacing: 1px;}
+}

@@ -8,13 +8,12 @@ body{
 h1{
     text-align: center;
     font-size: 300%;
-    font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(15, 67, 79);
-    margin-top: 0%;
+    color: rgb(16, 71, 83);
+    margin-top: 5%;
     animation: glow 1s ease-in-out infinite alternate;
 }
-@-webkit-keyframes glow {
+@keyframes glow {
     from {
       text-shadow: 0 0 10px #5ef6f6dc, 0 0 20px #68c4dede, 0 0 30px #47b2c5c5, 0 0 40px #efefefd5;
     
@@ -26,6 +25,7 @@ h1{
 }
 
 select{
+    color: rgb(2, 2, 2);
     position: relative;
     left: 6%;
     font-size: larger;
@@ -37,31 +37,32 @@ select{
     display: inline-block;
     margin-top: 1%;
     margin-bottom: 6%;
-    border: 2px solid #ccccccfc;
+    border: 2px solid #fcfcfcfc;
     border-radius: 6px;
     box-sizing: border-box;
     box-shadow: -4px 4px 8px 0 rgba(13, 13, 13, 0.343), 0 6px 20px 0 rgba(29, 27, 27, 0.406);
+    text-shadow: -1px 1px rgb(250, 248, 248);
 }
 
 #fromtxt{
-    color: #fff;
+    color: #ffffff;
     position: relative;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
     left: 5%;
     font-size: 350%;
+    text-shadow: 4px -4px black;
 }
 
 #totxt{
+    color: rgb(255, 255, 255);
     position: relative;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
     left: 5%;
     font-size: 350%;
+    text-shadow: 4px -4px black;
 }
-
-
-
 
 /*#currency{
     position: relative;
@@ -80,7 +81,7 @@ select{
     box-shadow: -4px 4px 8px 0 rgba(13, 13, 13, 0.343), 0 6px 20px 0 rgba(29, 27, 27, 0.406);
 }*/
 
-#amount{
+/* #amount{
     font-size: larger;
     letter-spacing: 2px;
     font-weight: 500;
@@ -93,23 +94,19 @@ select{
     border-radius: 6px;
     box-sizing: border-box;
     box-shadow: -4px 4px 8px 0 rgba(13, 13, 13, 0.343), 0 6px 20px 0 rgba(29, 27, 27, 0.406);
-}
+} */
 
 #home3{
-    text-decoration: none;
-   
     position: absolute;
-    left: 90%;
-    top: 90%;
-    font-size: 150%;
-    color: rgba(16, 31, 249, 0.881);
+    top: 10%;
+    right: 10%;
 }
 
-#home3:hover{
+/* #home3:hover{
   background-color: transparent;
 color: rgba(132, 171, 255, 0.855);
 text-decoration: underline;
-}
+} */
 
 #input{
     position: absolute;
@@ -123,8 +120,17 @@ text-decoration: underline;
     display: inline-block;
     margin-top: 1%;
     margin-bottom: 6%;
-    border: 2px solid #ccccccfc;
+    border: 2px solid #fffdfdfc;
     border-radius: 6px;
     box-sizing: border-box;
     box-shadow: -4px 4px 8px 0 rgba(13, 13, 13, 0.343), 0 6px 20px 0 rgba(29, 27, 27, 0.406);
+}
+
+@media only screen and (max-width:600px) { 
+    body{ background-image: url(/images/whitewall.jpeg); overflow: scroll;} 
+    h1{color: rgba(36, 20, 36, 0.834); animation: none; text-shadow: -2px 2px rgb(177, 118, 118);}
+    #fromtxt { font-size: 250%; text-shadow: 1.5px -1.5px black;}
+    #totxt { font-size: 250%; text-shadow: 2px -2px black;}
+    #input{ font-size: medium; letter-spacing: 0px;}
+    select{ font-size: small; letter-spacing: 0px; text-shadow: 1px -1px rgb(254, 253, 253); color: black; border: 1px solid black;}
 }
