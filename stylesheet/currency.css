@@ -5,7 +5,6 @@
 body{
     background-image: url(/images/try7.jpeg);
     background-size: cover;
-    overflow: hidden;
 }
 h1{
     text-align: center;

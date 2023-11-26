@@ -1,7 +1,6 @@
 body{
     background-image: url(/images/currencymain.jpeg);
     background-size: cover;
-    overflow: hidden;
 }
 
 
@@ -95,5 +94,4 @@ h1{
     #fromtxt { font-size: 250%; text-shadow: 1.5px -1.5px black;}
     #totxt { font-size: 250%; text-shadow: 2px -2px black;}
     #input{ font-size: medium; letter-spacing: 0px;}
-    .currency{ font-size: small; letter-spacing: 0px; text-shadow: 1px -1px rgb(254, 253, 253); color: black; border: 1px solid black;}
 }

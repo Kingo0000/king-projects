@@ -5,7 +5,6 @@
 body{
     background-image: url(/images/homewall.jpeg);
     background-size: cover;
-    overflow: hidden;
     margin: auto;
 }
 

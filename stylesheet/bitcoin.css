@@ -1,7 +1,6 @@
 body{
     background-image: url(/images/cryptowall.jpeg);
     background-size: cover;
-    overflow: hidden;
 }
 
 
@@ -89,5 +88,4 @@ h1{
     #fromtxt { font-size: 250%;}
     #totxt { font-size: 250%;}
     #input{ font-size: medium; letter-spacing: 0px;}
-    .coin{ font-size: small; letter-spacing: 1px;}
 }
