@@ -93,6 +93,6 @@ h1{
     h1{color: rgba(36, 20, 36, 0.834); animation: none; text-shadow: -2px 2px rgb(177, 118, 118);}
     #fromtxt { font-size: 250%; text-shadow: 1.5px -1.5px black;}
     #totxt { font-size: 250%; text-shadow: 2px -2px black;}
-    #input{ font-size: medium; letter-spacing: 0px;}
-    .currency{ color: rgb(174, 171, 171); padding: 2% 2%;}
+    #input{ font-size: medium; letter-spacing: 0px; padding: 2% 2%; border: 2px solid black;}
+    .currency{ color: rgb(42, 98, 124); padding: 2% 2%; border: 2px solid black;}
 }

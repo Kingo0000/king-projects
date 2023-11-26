@@ -88,6 +88,6 @@ h1{
     h1{color: rgba(36, 20, 36, 0.834); animation: none;}
     #fromtxt { font-size: 250%;}
     #totxt { font-size: 250%;}
-    #input{ font-size: medium; letter-spacing: 0px;}
-    .coin{ color: #3e3d3d; padding: 2% 2%;}
+    #input{ font-size: medium; letter-spacing: 0px; padding: 2% 2%; border: 2px solid black;}
+    .coin{ color: #39617a; padding: 2% 2%; letter-spacing: 0px; border: 2px solid rgb(33, 33, 33);}
 }
