@@ -70,7 +70,7 @@ h1{
 }
 
 
-#input{
+input{
     position: absolute;
     left: 54%;
     font-size: larger;
@@ -90,9 +90,11 @@ h1{
 
 @media only screen and (max-width:600px) { 
     body{ background-image: url(/images/whitewall.jpeg); overflow: scroll;} 
-    h1{color: rgba(36, 20, 36, 0.834); animation: none; text-shadow: -2px 2px rgb(177, 118, 118);}
+    h1{color: rgba(36, 20, 36, 0.834); animation: none;}
     #fromtxt { font-size: 250%; text-shadow: 1.5px -1.5px black;}
     #totxt { font-size: 250%; text-shadow: 2px -2px black;}
-    #input{ font-size: medium; letter-spacing: 0px; padding: 2% 2%; border: 2px solid rgba(0, 0, 0, 0.518);}
-    .currency{ color: rgb(45, 98, 212); padding: 2% 2%; border: 2px solid rgba(67, 66, 66, 0.686); letter-spacing: 0px; font-style: italic;}
+    input{padding: 2% 2%; border: 2px solid rgba(0, 0, 0, 0.518); left: 6%; width: 90%; letter-spacing: 1px;}
+    .currency{ color: rgba(19, 61, 157, 0.764); padding: 2% 2%; border: 2px solid rgba(67, 66, 66, 0.686);  font-style: italic; width: 90%; letter-spacing: 1px;}
+    .input1{ position: relative;}
+    .input2{ position: relative;}
 }
