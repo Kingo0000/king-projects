@@ -1,5 +1,5 @@
 body{
-    background-image: url(/images/currencymain.jpeg);
+    background-image: url(/images/currencywall2.jpeg);
     background-size: cover;
 }
 
@@ -23,7 +23,7 @@ h1{
     }
 }
 
-.currency{
+select{
     color: rgb(16, 15, 15);
     position: relative;
     left: 6%;
@@ -88,13 +88,28 @@ input{
     box-shadow: -4px 4px 8px 0 rgba(13, 13, 13, 0.343), 0 6px 20px 0 rgba(29, 27, 27, 0.406);
 }
 
+button{
+   position: relative;
+    left: 45%;
+    padding: 1%;
+    border-radius: 20%;
+}
+
+.rate{
+    position: relative;
+    left: 40%;
+    color: rgb(9, 9, 9);
+    font-size: large;
+
+}
+
 @media only screen and (max-width:600px) { 
     body{ background-image: url(/images/whitewall.jpeg); overflow: scroll;} 
     h1{color: rgba(36, 20, 36, 0.834); animation: none;}
     #fromtxt { font-size: 250%; text-shadow: 1.5px -1.5px black;}
     #totxt { font-size: 250%; text-shadow: 2px -2px black;}
-    input{padding: 2% 2%; border: 2px solid rgba(0, 0, 0, 0.518); left: 6%; width: 90%; letter-spacing: 1px;}
-    .currency{ color: rgba(19, 61, 157, 0.764); padding: 2% 2%; border: 2px solid rgba(67, 66, 66, 0.686);  font-style: italic; width: 90%; letter-spacing: 1px;}
-    .input1{ position: relative;}
-    .input2{ position: relative;}
+    input{padding: 2% 2%; border: 2px solid rgba(0, 0, 0, 0.518); left: 6%; width: 90%; letter-spacing: 1px; position: relative;}
+    select{ color: rgba(19, 61, 157, 0.764); padding: 2% 2%; border: 2px solid rgba(67, 66, 66, 0.686);  font-style: italic; width: 90%; letter-spacing: 1px;}
+    button{ left: 6%}
+    .rate{ left: 6%}
 }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bitcoin </title>
+    <link rel="icon" href="/images/IMG_6079.JPG">
+    <link rel="stylesheet" href="../stylesheet/bitcoin.css">
+</head>
+<body>
+    <h1> Convert </h1>
+    <a href="https://www.exchangerate-api.com" hidden >Rates By Exchange Rate API</a>
+
+    <form action="">
+    <span id="fromtxt"> From: </span><br>
+    <select id="currency-one" name="currency">
+      <option value="binancecoin"> BINANCE (bnb)</option>
+    </select> 
+  
+    <span>
+      <input type="number" placeholder=" Enter Quantity ......" id="amount-one" value="1"></span><br>
+
+
+    
+    <span id="totxt"> To: </span><br>
+    <select id="currency-two" name="currency">
+      <option value="usd"> 🇺🇸 U.S Dollars </option>
+      <option value="ngn"> 🇳🇬 Nigerian Naira </option>
+      <option value="eur"> 🇪🇺 Euro</option>
+      <option value="gbp"> 🇬🇧 Pound Sterling </option>
+      <option value="aed"> 🇦🇪 UAE Dirham </option>
+      <option value="jpy"> 🇯🇵	Japanese Yen </option>
+      <option value="try"> 🇹🇷 Turkish Lira  </option>
+      <option value="uah"> 🇺🇦 Ukrainian Hryvnia </option>
+      <option value="sar"> 🇸🇦 Saudi Riyal </option>
+      <option value="rub"> 🇷🇺	Russian Ruble </option>
+      <option value="chf"> 🇨🇭	Swiss Franc </option>
+      <option value="inr"> 🇮🇳	Indian Rupee </option>
+      <option value="kwd"> 🇰🇼 Kuwaiti Dinar </option>
+      <option value="huf"> 🇭🇺 Hungarian Forint</option>
+      <option value="ars"> 🇦🇷 Argentine Peso</option>
+      <option value="aud"> 🇦🇺 Australian Dollar</option>
+      <option value="brl"> 🇧🇷	Brazilian Real</option>
+      <option value="zar"> 🇿🇦 South African Rand</option>
+    </select> 
+    
+    <span>
+      <input type="number" placeholder=" Resuts to ....." id="amount-two"></span><br>
+<br>
+<a href="/home.html" id="home3"> <img src="/images/icons8-home-48.png" alt="Go Home"> </a>
+
+<div class="swap-rate-container">
+  <div class="rate" id="rate"></div><br>
+  <button class="btn" id="swap"> Reset </button>
+</div>
+
+
+<script src="/crypto.js"></script>
+
+    <!----<label for="amount"> Amount: </label>
+    <input type="text" id="amount" name="amount" placeholder="Please Type in The Amount....!">--->
+</form>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All </title>
+    <link rel="icon" href="/images/IMG_6079.JPG">
+    <link rel="stylesheet" href="../stylesheet/naira.css">
+</head>
+<body>
+    <h1> Convert </h1>
+    <a href="https://www.exchangerate-api.com" hidden >Rates By Exchange Rate API</a>
+
+    <form action="">
+    <span id="fromtxt"> From: </span><br>
+    <select id="currency-one" name="currency">
+      <option value="CAD"> 🇨🇦 Canadian Dollar</option>
+      <option value="USD"> 🇺🇸 USD </option>
+      <option value="NGN"> 🇳🇬	Nigerian Naira</option>
+      <option value="EUR"> 🇪🇺 Euro</option>
+      <option value="GBP"> 🇬🇧 Pound Sterling </option>
+      <option value="AED"> 🇦🇪 UAE Dirham </option>
+      <option value="EGP"> 🇪🇬 Egyptian Pound </option>
+      <option value="JPY"> 🇯🇵	Japanese Yen </option>
+      <option value="TRY"> 🇹🇷 Turkish Lira  </option>
+      <option value="XAF"> 🇧🇯 Fran CFA</option>
+      <option value="UAH"> 🇺🇦 Ukrainian Hryvnia </option>
+      <option value="TND"> 🇹🇳 Tunisian Dinar </option>
+      <option value="SAR"> 🇸🇦 Saudi Riyal </option>
+      <option value="RUB"> 🇷🇺	Russian Ruble </option>
+      <option value="QAR"> 🇶🇦 Qatari Riyal </option>
+      <option value="MVR"> 🇲🇻	Maldivian Rufiyaa </option>
+      <option value="KES"> 🇰🇪	Kenyan Shilling </option>
+      <option value="CHF"> 🇨🇭	Swiss Franc </option>
+      <option value="INR"> 🇮🇳	Indian Rupee </option>
+      <option value="GHS"> 🇬🇭	Ghanaian Cedi </option>
+      <option value="MAD"> 🇲🇦 Moroccan Dirham</option>
+      <option value="KWD"> 🇰🇼 Kuwaiti Dinar </option>
+      <option value="HUF"> 🇭🇺 Hungarian Forint</option>
+      <option value="ANG"> 🇳🇱 Netherlands Antillian Guilder</option>
+      <option value="ARS"> 🇦🇷 Argentine Peso</option>
+      <option value="AUD"> 🇦🇺 Australian Dollar</option>
+      <option value="BRL"> 🇧🇷	Brazilian Real</option>
+      <option value="COP"> 🇨🇴 Colombian Peso</option>
+      <option value="HRK"> 🇭🇷	Croatian Kuna</option>
+      <option value="JMD"> 🇯🇲 Jamaican Dollar</option>
+      <option value="KES"> 🇰🇪 Kenyan Shilling</option>
+      <option value="MVR"> 🇲🇻 Maldivian Rufiyaa </option>
+      <option value="SLE"> 🇸🇱 Sierra Leonean Leone</option>
+      <option value="SOS"> 🇸🇴	Somali Shilling</option>
+      <option value="TND"> 🇹🇳 Tunisian Dinar</option>
+      <option value="ZAR"> 🇿🇦 South African Rand</option>
+    
+    </select> 
+    <span>
+      <input type="number" placeholder=" Enter currency Amount ......" id="amount-one" value="1"></span><br>
+
+
+    
+    <span id="totxt"> To: </span><br>
+    <select id="currency-two" name="currency">
+      <option value="USD"> 🇺🇸 USD </option>
+      <option value="NGN"> 🇳🇬 NGN </option>
+      <option value="EUR"> 🇪🇺 Euro</option>
+      <option value="GBP"> 🇬🇧 Pound Sterling </option>
+      <option value="AED"> 🇦🇪 UAE Dirham </option>
+      <option value="EGP"> 🇪🇬 Egyptian Pound </option>
+      <option value="JPY"> 🇯🇵	Japanese Yen </option>
+      <option value="TRY"> 🇹🇷 Turkish Lira  </option>
+      <option value="XAF"> 🇧🇯 Fran CFA</option>
+      <option value="UAH"> 🇺🇦 Ukrainian Hryvnia </option>
+      <option value="TND"> 🇹🇳 Tunisian Dinar </option>
+      <option value="SAR"> 🇸🇦 Saudi Riyal </option>
+      <option value="RUB"> 🇷🇺	Russian Ruble </option>
+      <option value="QAR"> 🇶🇦 Qatari Riyal </option>
+      <option value="MVR"> 🇲🇻	Maldivian Rufiyaa </option>
+      <option value="KES"> 🇰🇪	Kenyan Shilling </option>
+      <option value="CHF"> 🇨🇭	Swiss Franc </option>
+      <option value="INR"> 🇮🇳	Indian Rupee </option>
+      <option value="GHS"> 🇬🇭	Ghanaian Cedi </option>
+      <option value="MAD"> 🇲🇦 Moroccan Dirham</option>
+      <option value="KWD"> 🇰🇼 Kuwaiti Dinar </option>
+      <option value="HUF"> 🇭🇺 Hungarian Forint</option>
+      <option value="ANG"> 🇳🇱 Netherlands Antillian Guilder</option>
+      <option value="ARS"> 🇦🇷 Argentine Peso</option>
+      <option value="AUD"> 🇦🇺 Australian Dollar</option>
+      <option value="BRL"> 🇧🇷	Brazilian Real</option>
+      <option value="COP"> 🇨🇴 Colombian Peso</option>
+      <option value="HRK"> 🇭🇷	Croatian Kuna</option>
+      <option value="JMD"> 🇯🇲 Jamaican Dollar</option>
+      <option value="KES"> 🇰🇪 Kenyan Shilling</option>
+      <option value="MVR"> 🇲🇻 Maldivian Rufiyaa </option>
+      <option value="SLE"> 🇸🇱 Sierra Leonean Leone</option>
+      <option value="SOS"> 🇸🇴	Somali Shilling</option>
+      <option value="TND"> 🇹🇳 Tunisian Dinar</option>
+      <option value="ZAR"> 🇿🇦 South African Rand</option>
+
+    </select> 
+    
+    <span>
+      <input type="number" placeholder=" Equals to ......" id="amount-two"></span><br>
+<br>
+<a href="/home.html" id="home3"> <img src="/images/icons8-home-48.png" alt="Go Home"> </a>
+<div class="swap-rate-container">
+  <div class="rate" id="rate"></div><br>
+  <button class="btn" id="swap"> Reset </button>
+</div>
+
+<script src="/mode.js"></script>
+
+    <!----<label for="amount"> Amount: </label>
+    <input type="text" id="amount" name="amount" placeholder="Please Type in The Amount....!">--->
+</form>
+</body>
+</html>
