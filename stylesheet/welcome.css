@@ -1,0 +1,41 @@
+body{
+    background-image: url(/images/welcome2.jpeg);
+    background-size: cover;
+}
+
+button{
+    position: relative;
+    font-size: medium;
+}
+
+.button{
+    position: absolute;
+    top: 80%;
+    left: 43%;
+    width: 230px;
+    height: 8%;
+    border-radius: 12px;
+    box-shadow: -4px 4px rgba(0, 0, 0, 0.339);
+    font-size: 20px;
+}
+
+#b3{
+    float: right;
+}
+
+#b4{
+    position: absolute;
+   bottom: 3%;
+   left: 1%;
+}
+
+#b5{
+    position: absolute;
+    bottom: 3%;
+    right: 1%;
+}
+
+@media only screen and (max-width:600px){
+    body{ background-image: url(/images/whitewall.jpeg); overflow: scroll;}
+    .button{ width: auto; left: 20%; top: 40%;}
+}
